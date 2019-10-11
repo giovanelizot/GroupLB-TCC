@@ -1,6 +1,7 @@
 
 /**
  *  \addtogroup CkLdb
+ * Giovane Lizot
  */
 
 /*@{*/
