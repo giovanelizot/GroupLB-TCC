@@ -1,0 +1,8 @@
+module GroupLB {
+  extern module CentralLB;
+  initnode void lbinit (void);
+
+  group [migratable] GroupLB : CentralLB {
+    entry void GroupLB(const CkLBOptions &);
+  };
+};
